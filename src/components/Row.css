@@ -1,0 +1,42 @@
+.row {
+  margin-inline: auto;
+  width: 80%;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+}
+.row-avater {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  margin-inline: 5px;
+}
+.row-details {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.row-details > h2 {
+  font-size: 30px;
+}
+.row-details > h3 {
+  font-size: 20px;
+}
+
+.row-details__cards {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+.row-details__cards--star-count {
+  padding: 5px 10px;
+  border: 1px solid #777;
+  margin-inline: 10px;
+}
+.row-details__cards--issue-count {
+  padding: 5px 10px;
+  border: 1px solid #777;
+  margin-inline: 10px;
+}
